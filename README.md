@@ -9,3 +9,6 @@ URL tersebut berarti program publisher terhubung ke RabbitMQ sebagai message bro
 
 ## Running RabbitMQ as message broker.
 ![Image of Running RabbitMQ](media/running.png)
+
+## Sending and Processing Event.
+![Process in Terminal](media/terminal.png)
