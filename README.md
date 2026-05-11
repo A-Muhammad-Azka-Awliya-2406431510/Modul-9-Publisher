@@ -12,3 +12,8 @@ URL tersebut berarti program publisher terhubung ke RabbitMQ sebagai message bro
 
 ## Sending and Processing Event.
 ![Process in Terminal](media/terminal.png)
+
+## Monitoring chart based on publisher
+![Spikes in RabbitMQ](media/spike.png)
+
+Spike pada grafik RabbitMQ muncul karena publisher sedang mengirim event ke message broker dalam waktu singkat, lalu grafik kembali turun setelah pesan tersebut diterima atau diproses oleh subscriber, sesuai alur di dokumen bahwa publisher mengirim event ke RabbitMQ dan subscriber mengambil event dari queue. 
